@@ -1,5 +1,5 @@
 Summary:	Utility for viewing and editing binary files
-Summary(pl):	Narzêdzie do przegl±dania i edytowania plików binarnych
+Summary(pl):	Narzêdzie do przegl±dania i edycji plików binarnych
 Name:		fb
 Version:	1.5
 Release:	1
@@ -19,20 +19,20 @@ one's favorite text editor; and then translated back into a binary
 file.
 
 %description -l pl
-fb jest narzêdziem do ogl±dania i edytowania plików binarnych. Pliki
-mog± byæ ogl±dane w postaci liczb systemu dwójkowego, dziesiêtnego,
+fb jest narzêdziem do ogl±dania i edycji plików binarnych. Pliki mog±
+byæ ogl±dane w postaci liczb systemu dwójkowego, dziesiêtnego,
 szesnastkowego, ósemkowego, a tak¿e w postaci znaków ASCII. Oprócz
 prostego nadpisywania, pliki binarne mog± byæ zapisane do pliku w
 dowolnej postaci tekstowej, przeedytowane edytorem tekstu, a nastêpnie
 z powrotem przet³umaczone na plik binarny.
 
 %prep
-%setup -c -n %{name}
+%setup -qc
 
 %build
-%{__make} \
-	CFLAGS="%{rpmcflags}" \
-	%{name}
+%{__make} %{name} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
