@@ -1,5 +1,5 @@
-Summary:	utility for viewing and editing binary files
-Summary(pl):	narzêdzie do przegl±dania i edytowania plików binarnych
+Summary:	Utility for viewing and editing binary files
+Summary(pl):	Narzêdzie do przegl±dania i edytowania plików binarnych
 Name:		fb
 Version:	1.5
 Release:	1
@@ -11,19 +11,20 @@ URL:		http://home.mho.net/jswaby/fb.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-fb is a utility for the viewing and editing of binary files. Files can be
-viewed in binary, decimal, hexadecimal, and octal, and/or characters.
-In addition to simple overwriting, a binary file may be dumped as binary,
-hexadecimal, decimal, or octal numbers; edited with one's favorite text
-editor; and then translated back into a binary file.                         
+fb is a utility for the viewing and editing of binary files. Files can
+be viewed in binary, decimal, hexadecimal, and octal, and/or
+characters. In addition to simple overwriting, a binary file may be
+dumped as binary, hexadecimal, decimal, or octal numbers; edited with
+one's favorite text editor; and then translated back into a binary
+file.
 
 %description -l pl
 fb jest narzêdziem do ogl±dania i edytowania plików binarnych. Pliki
 mog± byæ ogl±dane w postaci liczb systemu dwójkowego, dziesiêtnego,
 szesnastkowego, ósemkowego, a tak¿e w postaci znaków ASCII. Oprócz
-prostego nadpisywania, pliki binarne mog± byæ zapisane do pliku w dowolnej
-postaci tekstowej, przeedytowane edytorem tekstu, a nastêpnie z powrotem
-przet³umaczone na plik binarny.
+prostego nadpisywania, pliki binarne mog± byæ zapisane do pliku w
+dowolnej postaci tekstowej, przeedytowane edytorem tekstu, a nastêpnie
+z powrotem przet³umaczone na plik binarny.
 
 %prep
 %setup -c -n %{name}
