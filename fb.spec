@@ -23,7 +23,7 @@ fb jest narzêdziem do ogl±dania i edycji plików binarnych. Pliki mog±
 byæ ogl±dane w postaci liczb systemu dwójkowego, dziesiêtnego,
 szesnastkowego, ósemkowego, a tak¿e w postaci znaków ASCII. Oprócz
 prostego nadpisywania, pliki binarne mog± byæ zapisane do pliku w
-dowolnej postaci tekstowej, przeedytowane edytorem tekstu, a nastêpnie
+dowolnej postaci tekstowej, zmodyfikowane edytorem tekstu, a nastêpnie
 z powrotem przet³umaczone na plik binarny.
 
 %prep
