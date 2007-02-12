@@ -1,5 +1,5 @@
 Summary:	Utility for viewing and editing binary files
-Summary(pl):	Narzêdzie do przegl±dania i edycji plików binarnych
+Summary(pl.UTF-8):   NarzÄ™dzie do przeglÄ…dania i edycji plikÃ³w binarnych
 Name:		fb
 Version:	1.5
 Release:	1
@@ -18,13 +18,13 @@ dumped as binary, hexadecimal, decimal, or octal numbers; edited with
 one's favorite text editor; and then translated back into a binary
 file.
 
-%description -l pl
-fb jest narzêdziem do ogl±dania i edycji plików binarnych. Pliki mog±
-byæ ogl±dane w postaci liczb systemu dwójkowego, dziesiêtnego,
-szesnastkowego, ósemkowego, a tak¿e w postaci znaków ASCII. Oprócz
-prostego nadpisywania, pliki binarne mog± byæ zapisane do pliku w
-dowolnej postaci tekstowej, zmodyfikowane edytorem tekstu, a nastêpnie
-z powrotem przet³umaczone na plik binarny.
+%description -l pl.UTF-8
+fb jest narzÄ™dziem do oglÄ…dania i edycji plikÃ³w binarnych. Pliki mogÄ…
+byÄ‡ oglÄ…dane w postaci liczb systemu dwÃ³jkowego, dziesiÄ™tnego,
+szesnastkowego, Ã³semkowego, a takÅ¼e w postaci znakÃ³w ASCII. OprÃ³cz
+prostego nadpisywania, pliki binarne mogÄ… byÄ‡ zapisane do pliku w
+dowolnej postaci tekstowej, zmodyfikowane edytorem tekstu, a nastÄ™pnie
+z powrotem przetÅ‚umaczone na plik binarny.
 
 %prep
 %setup -qc
