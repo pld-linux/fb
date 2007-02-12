@@ -1,5 +1,5 @@
 Summary:	Utility for viewing and editing binary files
-Summary(pl.UTF-8):   Narzędzie do przeglądania i edycji plików binarnych
+Summary(pl.UTF-8):	Narzędzie do przeglądania i edycji plików binarnych
 Name:		fb
 Version:	1.5
 Release:	1
